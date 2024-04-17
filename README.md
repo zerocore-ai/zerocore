@@ -21,11 +21,13 @@
   </p> -->
 </div>
 
-**`zerocore`** is a secure platform for hosting your applications and data. It executes [WebAssembly][wasm] programs in a sandbox and provides integration with essential _provider_ services, like the file system and database.
+**`zerocore`** is a secure platform for hosting your applications and data. It executes [WebAssembly][wasm] programs in a sandbox environment and provides integration with essential _provider_ services, like the file system and database.
+
+### Key Features
 
 #### Secure by Default
 
-zerocore adheres to the least privilege security philosophy, requiring programs to obtain explicit user permissions to access system resources such as files or database tables. This approach grants users complete control over their data and guards against certain classes of attacks like ransomware.
+zerocore adheres to the least privilege security model, requiring programs to obtain explicit user permissions to access system resources such as files or database tables. This approach grants users complete control over their data and guards against certain classes of attacks like ransomware.
 
 #### Distributed
 
@@ -35,7 +37,11 @@ The architecture is designed to support scalability and distribution, using the 
 
 zerocore leverages Decentralized Identifiers (DIDs) and User-Controlled Authorization Networks (UCAN) to provide a fully decentralized user management system. This approach ensures that no central authority controls identity verification or access permissions. Instead, users autonomously manage their digital identities and the sharing of their access rights.
 
-##
+#### Multi-Tenant
+
+A single instance of zerocore can host multiple user spaces, each with its own set of permissions and resources. This multi-tenant architecture makes it easy to deploy applications for multiple users on a single platform, reducing operational costs and simplifying the management of user data.
+
+</br>
 
 > [!WARNING]
 > This project is in early development and is not yet ready for production use.

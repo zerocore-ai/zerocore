@@ -1,6 +1,6 @@
 [package]
 name = "zerocore"
-description = "zerocore is a secure platform for hosting your applications and data. It executes WebAssembly programs in a sandbox and provides integration with essential provider services, like the file system and database."
+description = "zerocore is a secure platform for hosting your applications and data. It executes WebAssembly programs in a sandbox environment and provides integration with essential provider services, like the file system and database."
 keywords = []
 categories = []
 documentation = "https://docs.rs/zerocore"

@@ -1,4 +1,4 @@
-- [ ] Remove nacelle. Move into a separate repo
+- [x] Remove nacelle. Move into a separate repo
 
 
 - [ ] The component model
@@ -47,9 +47,8 @@
 
 - [ ] Identities (DIDs)
 
-  - [ ] Admin - Allows communication with other node. Can create a tenant partition. etc.
-  - [ ] Owner - Delegated by admin. Can own a tenant partition
-  - [ ] Node
+  - [ ] Root User - Sets up the nodes. Can create a tenant partition. etc.
+  - [ ] User - Delegated by the root user. Can own a tenant partition
 
 - [ ] The Core
 

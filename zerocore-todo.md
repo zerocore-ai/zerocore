@@ -25,7 +25,7 @@
   - [ ] API Design
 
     ```rust
-    use zerosdk::zeroproxy::{zeroproxy, Request, Response};
+    use zerosdk::zeroproxy::{self, Request, Response};
 
     #[zeroproxy::handler]
     pub fn handler(_req: &mut Request) -> impl Response {

@@ -51,9 +51,21 @@ A single instance of zerocore can host multiple user spaces, each with its own s
 ### Outline
 
 - [Usage](#usage)
+- [License](#license)
 
 ##
 
 ### Usage
 
-[wasm]: https://en.wikipedia.org/wiki/WebAssembly
+`zerocore` cannot execute modules without a trigger event. As a matter of fact, it cannot read the module file without a capability handed to it to fetch the module from a file provider. This is where `zeroproxy` and `zerofs` come in. `zeroproxy` is an _event provider_ that can trigger the execution of a module and `zerofs` is a file _provider_ that can provide access to such file.
+
+`zerocore` is usually started with other providers like zerofs and zeroproxy to form a single `zero node`. The `zero node` is the smallest unit of deployment in the zerocore ecosystem and it can be replicated to form a cluster of nodes.
+
+
+## License
+
+This project is licensed under the [Apache License 2.0](./LICENSE), or
+[http://www.apache.org/licenses/LICENSE-2.0][apache].
+
+[apache]: https://www.apache.org/licenses/LICENSE-2.0
+[wasm]: https://webassembly.org/
